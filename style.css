@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #7ebc89;
+    background-color: #EC9A29;
 }
 
 #message {
@@ -51,7 +51,7 @@ body{
 .dark-mode-toggle {
   background-color: #222;
   color: #f1f1f1;
-  border: 1px solid #555;
+  border: 1px solid #141414;
   border-radius: 6px;
   padding: 6px 14px;
   cursor: pointer;
@@ -65,21 +65,22 @@ body{
 
 /* ── Dark Mode Theme ──────────────────────────────────── */
 body.dark-mode {
-  background-color: #1a1a2e;
+  background-color: #070707;
   color: #e0e0e0;
 }
 
 body.dark-mode .site-header,
 body.dark-mode footer.site-footer {
-  background-color: #0f0f23;
+  background-color: #060101;
 }
 
 body.dark-mode .nav-links li a {
-  color: #e0e0e0;
+  color: #ca0c0c;
 }
 
-body.dark-mode .nav-links li a:hover {
-  background-color: #2a2a4a;
+body.dark-mode .nav-links li a:hover { 
+  background-color: #eaeaed;
+  color: rgb(6, 5, 5);
 }
 
 body.dark-mode .project-card,
