@@ -1,0 +1,109 @@
+
+.nav-links {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+    gap: 20px;
+}
+
+
+.nav-links li a:hover {
+    background-color: rgb(241, 241, 236);
+}
+
+body{
+    background-color: #7ebc89;
+}
+
+#message {
+    resize: none;
+}
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+}
+.fic{
+    width: 200px;
+    border-radius: 10px;
+}
+.content-actions {
+    display: flex;
+    gap: 20px;
+}
+
+
+.a-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.content-intro{
+   
+  max-width: 75ch; /* Limits the line length to about 60 characters */
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ── Dark Mode Button ─────────────────────────────────── */
+.dark-mode-toggle {
+  background-color: #222;
+  color: #f1f1f1;
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #444;
+}
+
+/* ── Dark Mode Theme ──────────────────────────────────── */
+body.dark-mode {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .site-header,
+body.dark-mode footer.site-footer {
+  background-color: #0f0f23;
+}
+
+body.dark-mode .nav-links li a {
+  color: #e0e0e0;
+}
+
+body.dark-mode .nav-links li a:hover {
+  background-color: #2a2a4a;
+}
+
+body.dark-mode .project-card,
+body.dark-mode .content-card {
+  background-color: #080a0f;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  background-color: #16213e;
+  color: #e0e0e0;
+  border: 1px solid #555;
+}
+
+body.dark-mode .btn.primary,
+body.dark-mode a.primary.button {
+  background-color: #e63946;
+  color: #fff;
+}
+
+/* Smooth transition on everything */
+body, .site-header, footer, .project-card, .content-card,
+.contact-form input, .contact-form textarea {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

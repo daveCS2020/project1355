@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--This makes sure its mobile friendly-->
+        <title> David Cristobal | portfolio </title> 
+         <link rel="stylesheet" href="style.css">
+         
+    </head>
+    <body>       <!--start of body-->
+        <header class="site-header" > <!--top section of the page-->
+            <nav class="navbar" aria-label="main navigation"> <!-- navigation links for the page -->
+                <a class="logo" href="#home"> David Cristobal </a> <!-- link to jump to home section when pressed-->
+
+            <button class="menu-toggle" id='davidMenu' aria-label="Open navigation menu" aria-expanded="false">☰</button> <!-- this is the hamburger menu for mobile-->
+                <ul class="nav-links">
+                    <li> <a href="#home"> Home</a></li>
+                    <li class="separator">|</li>
+                    <li> <a href="#about"> About </a></li>
+                    <li class="separator">|</li>
+                    <li> <a href="#projects"> Projects </a></li>
+                    <li class="separator">|</li>
+                    <li> <a href="#skills"> Skills </a></li>
+                    <li class="separator">|</li>
+                    <li> <a href="#contact"> Contact </a> </li>
+                </ul>  <!--end for unordered lists-->
+                <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
+             </nav> <!--end of the navigation links -->
+
+        </header>
+
+
+        <main>
+            <section id="home" class="content-section">  <!-- home section  2 classes--> 
+                <div class="home-container"> 
+                    <div class="home-content">
+                    <h1> Hi, Welcome to my personal professional page</h1>
+                     <p class="career">  </p>
+                
+                </div>
+                         <div class="a-row">
+                          <img class="fic" src="projectimg355.jpg" >
+                             <p  class="content-intro">
+                                "Hi once again and welcome to my website, thank you for visiting, I'm Currently building my skills in not just programming, but also in web development and my career goal is Data Analytics.
+                                This portfolio will be highlighting this like my personal projects, my background, my professional goals and experience."  
+                            </p>
+                        </div> 
+                </div>
+               
+
+                <div class="content-actions">
+                    <a class="primary button" href="#projects"> PROJECTS </a>
+                    <a class="secondary button" href="#contact"> CONTACT ME</a>
+                </div>
+           
+               <div class="content-portfolio" aria-label="Portfolio summary card">
+                <h2> Portfolio </h2>
+                <p>
+                    HTML * CSS * Data Analytics * GitHub * JavaScript
+                </p>
+               </div>
+               </section>
+
+              
+   <section id="projects" class="sections">
+                <div class="section-heading" >
+                     <h2> Projects: </h2> 
+                    <p class="content" > </p>
+                     <h2> Featured work </h2>
+                </div>
+
+
+               <div class="project-grid"> 
+                    <article class="project-card">
+                       <h3> Personl Website </h3>
+                         <p>
+                           My attempt to bulding this portfolio website created with HTML, CSS, and JavaScript to
+                            present my background, skills, and career goals.
+                         </p>       
+                    <span>HTML • CSS • JavaScript</span>
+        
+                    </article>
+
+        <article class="project-practice"> <!-- indiviaul project 1 independent-->
+               <h3>Web Design Practice</h3>
+                 <p>
+                     Class practice projects that we based on, styling, layout, and
+                     building confidence with web development fundamentals.
+                </p>
+                <span>HTML • CSS</span>
+        </article>                      <!--end individual project 1 independent -->
+
+        <article class="project-assignments"> <!--individual project 2 independent -->
+              <h3>Programming Assignments</h3>
+                <p>
+                   Coding assignments that helped me practice logic and 
+                   basic programming concepts.
+                </p>
+               <span>Python • Java • SQL</span>
+        </article>                     <!-- end of individual project 2 -->
+            
+    </div>
+  </section>
+
+  <section id="skills" class="section skills-section">
+      <div class="section-heading">
+        <p class="content">Skills</p>
+        <h2>Technical and Professional Skills</h2>
+      </div>
+      <div class="skills-bullet"> <!--drop down ullets points-->
+        <div>
+          <h3>Technical Skills</h3>
+          <ul>    <!--unordered list-->
+            <li>HTML, CSS, and JavaScript basics</li>
+            <li>GitHub </li>
+            <li>Python basics, some Java, and some SQL</li>
+            <li>VS Code and basic project organization</li>
+          </ul>  <!--end unordered list-->
+        </div>
+    </div>
+        
+  </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="section-heading">
+           <p class="content">Contact</p>
+          <h2>Let's Connect</h2>
+        </div>
+      
+      <p>
+        Hi Visitor you can view my projects, contact me about professional opportunities,
+        class projects, or networking Below.
+      </p>
+
+
+      <form id="contactForm" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="yourname@email.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+        <button class="btn primary" type="submit">Send Message</button>
+        <p id="formMessage" class="form-message" role="status"></p>
+      </form>
+
+      <div class="contact-links">
+        <a href="https://github.com/cs2020" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:david.cristobal72@stu.cuny.edu">Email Me</a>
+      </div>
+    </section>
+
+    </main>
+
+
+   <footer class="site-footer">
+         <p>&copy; 2026 David Cristobal. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+  <script src="script.js"></script>
+
+    </body>             <!--END BODY-->
+</html>
